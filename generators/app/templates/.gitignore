@@ -1,0 +1,8 @@
+_site
+dist
+.cache
+node_modules
+src/scripts/**/*.js
+src/styles/*.css
+.idea
+.eslintcache

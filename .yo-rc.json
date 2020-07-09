@@ -1,0 +1,9 @@
+{
+  "generator-node": {
+    "promptValues": {
+      "authorName": "Happy Valley IO",
+      "authorEmail": "support@happyvalley.io",
+      "authorUrl": "https://www.happyvalley.io"
+    }
+  }
+}
