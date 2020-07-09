@@ -66,7 +66,7 @@ module.exports = class extends Generator {
 
     this.spawnCommand('git', ['init'], {
       cwd: this.destinationPath()
-    }).
+    })
 
     this.spawnCommand('npm', ['ci'], {
       cwd: this.destinationPath()
