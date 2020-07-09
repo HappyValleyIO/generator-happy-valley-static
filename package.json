@@ -1,8 +1,7 @@
 {
-  "name": "eleventy-parcel",
+  "name": "@happyvalley/create-static",
   "version": "1.0.0",
-  "description": "An example of using eleventy and parcel together for staic site generation",
-  "main": "index.js",
+  "description": "A static site starter template.",
   "scripts": {
     "dev": "npm-run-all --parallel bundle:*",
     "bundle:eleventy": "eleventy --serve --quiet",
@@ -12,11 +11,13 @@
     "lint": "eslint 'src/**/*.{ts}' --fix",
     "stylelint": "stylelint src/**/*.scss"
   },
+  "repository": "https://github.com/HappyValleyIO/create-static-site",
   "author": "Happy Valley IO <support@happyvalley.io>",
   "license": "MIT",
   "devDependencies": {
     "@11ty/eleventy": "^0.11.0",
     "@babel/core": "^7.10.4",
+    "@types/turbolinks": "^5.2.0",
     "@typescript-eslint/eslint-plugin": "^3.6.0",
     "@typescript-eslint/parser": "^3.6.0",
     "eslint": "^7.4.0",
@@ -31,14 +32,13 @@
     "sass": "^1.26.10",
     "stylelint": "^13.6.1",
     "stylelint-config-prettier": "^8.0.2",
+    "stylelint-config-sass-guidelines": "^7.0.0",
     "stylelint-config-standard": "^20.0.0",
     "typescript": "^3.9.6"
   },
   "dependencies": {
-    "@types/turbolinks": "^5.2.0",
     "bulma": "^0.9.0",
     "stimulus": "^1.1.1",
-    "stylelint-config-sass-guidelines": "^7.0.0",
     "turbolinks": "^5.2.0"
   },
   "husky": {
