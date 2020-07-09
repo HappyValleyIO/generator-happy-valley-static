@@ -1,0 +1,31 @@
+{
+  "name": "eleventy-parcel",
+  "version": "1.0.0",
+  "description": "An example of using eleventy and parcel together for staic site generation",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npm-run-all --parallel bundle:*",
+    "bundle:eleventy": "eleventy --serve --quiet",
+    "bundle:parcel": "parcel watch _site/index.html _site/*.html _site/**/*.html",
+    "bundle:serve": "live-server ./dist --entry-file=index.html --port=3000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Happy Valley IO <support@happyvalley.io>",
+  "license": "MIT",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.11.0",
+    "@babel/core": "^7.10.4",
+    "live-server": "^1.2.1",
+    "npm-run-all": "^4.1.5",
+    "parcel-bundler": "^1.12.4",
+    "prettier": "2.0.5",
+    "sass": "^1.26.10",
+    "typescript": "^3.9.6"
+  },
+  "dependencies": {
+    "@types/turbolinks": "^5.2.0",
+    "bulma": "^0.9.0",
+    "stimulus": "^1.1.1",
+    "turbolinks": "^5.2.0"
+  }
+}
