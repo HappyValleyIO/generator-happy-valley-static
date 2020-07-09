@@ -1,5 +1,5 @@
 {
-  "name": "@happyvalley/create-static",
+  "name": "@happyvalleyio/create-static",
   "version": "0.1.0",
   "description": "A static site starter template.",
   "scripts": {
