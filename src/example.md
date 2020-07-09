@@ -1,5 +1,5 @@
 ---
 layout: default_layout.njk
-title: My Rad Markdown Blog Post
+title: Another example page
 ---
-# Page header
+# This is the example page
