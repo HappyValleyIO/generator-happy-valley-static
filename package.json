@@ -1,6 +1,6 @@
 {
   "name": "@happyvalley/create-static",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "A static site starter template.",
   "scripts": {
     "dev": "npm-run-all --parallel bundle:*",
