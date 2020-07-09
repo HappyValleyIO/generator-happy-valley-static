@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "npm-run-all --parallel bundle:*",
     "bundle:eleventy": "eleventy --serve --quiet",
-    "bundle:parcel": "parcel watch _site/index.html _site/*.html _site/**/*.html",
+    "bundle:parcel": "parcel watch --no-hmr _site/index.html _site/*.html _site/**/*.html",
     "bundle:serve": "live-server ./dist --entry-file=index.html --port=3000",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

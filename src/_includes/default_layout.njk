@@ -1,9 +1,12 @@
+---
+title: Proof of concept
+---
+
 <!doctype html>
 <html lang="">
-
 <head>
     <meta charset="utf-8">
-    <title>Eleventy with Parcel Example</title>
+    <title>{{ title }}</title>
     <meta name="description"
           content="An example site where we use eleventy to build the static assets before parcel handles the bundling.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -19,17 +22,20 @@
 
     <meta name="theme-color" content="#fafafa">
 
-    <script src="/scripts/app.ts" defer></script>
+    <script src="~scripts/app.ts" defer></script>
 
-    <link rel="stylesheet" href="/styles/all.scss">
+    <link rel="stylesheet" href="~styles/all.scss">
 </head>
 
 <body>
 <div class="content">
     <div class="container">
-        <h1 class="title" data-controller="log">Hello world! This is HTML5 Boilerplate.</h1>
+        <h1 class="title" data-controller="log">{{ title }}</h1>
+
+        {{ content | safe }}
     </div>
 </div>
+
 </body>
 
 </html>
