@@ -60,13 +60,13 @@ module.exports = class extends Generator {
     )
   }
 
-  installDeps() {
+  install() {
     this.log('Installing dependencies')
     this.destinationRoot(`${this.destinationPath(this.answers.name)}`)
 
     this.spawnCommand('git', ['init'], {
       cwd: this.destinationPath()
-    })
+    }).
 
     this.spawnCommand('npm', ['ci'], {
       cwd: this.destinationPath()
