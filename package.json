@@ -1,6 +1,6 @@
 {
   "name": "generator-happy-valley-static",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "A static site generator for our eleventy and parcel setup.",
   "homepage": "https://github.com/HappyValleyIO/create-static-site/",
   "author": {
