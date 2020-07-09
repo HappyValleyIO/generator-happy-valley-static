@@ -1,6 +1,6 @@
 {
   "name": "generator-happy-valley-static",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A static site generator for our eleventy and parcel setup.",
   "homepage": "https://github.com/HappyValleyIO/create-static-site/",
   "author": {
@@ -82,6 +82,6 @@
     "pretest": "eslint .",
     "test": "jest"
   },
-  "repository": "HappyValleyIO/generator-happy-valley-static",
+  "repository": "https://github.com/HappyValleyIO/create-static-site/",
   "license": "MIT"
 }
